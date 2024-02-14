@@ -43,13 +43,17 @@ flutter:
   #------ Local assets -------#
   assets:
     - assets/icons/
-#    - assets/fonts
+    - assets/fonts/inter/
     - assets/logos/
 
   #------ Local Fonts -------#
-#  fonts:
-#    - family: Inter
-#      fonts:
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
 
   
   
