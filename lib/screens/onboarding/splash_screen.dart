@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:bible/screens/mainScreen/main_screen.dart';
+import 'package:bible/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
@@ -18,9 +19,9 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(
       const Duration(seconds: 2),
       () {
-        Navigator.of(context).push(
+        Navigator.of(context).pushReplacement(
           MaterialPageRoute(
-            builder: (context) => MainScreen(),
+            builder: (context) => const MainScreen(),
           ),
         );
       },
@@ -30,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 13, 90, 95),
+      backgroundColor: primaryColor,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -40,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
           const Align(
             alignment: Alignment.bottomCenter,
             child: SpinKitFadingCircle(
-              color: Colors.white,
+              color: primaryColor,
             ),
           ),
           const SizedBox(

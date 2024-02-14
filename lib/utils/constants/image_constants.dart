@@ -14,13 +14,16 @@ class ImageConstants {
   static String iconSearch = '$iconPath/search_icon.png';
   static String iconMenu = '$iconPath/menu_icon.png';
 
-  // Back Navigation
+  // Back Navigation Icon
   static String iconBackArrow = '$iconPath/arrow_left_icon.png';
+
+  // Close Icon
+  static String iconClose = '$iconPath/close_icon.png';
 
   // Menu Icons
   static String iconUser = '$iconPath/user_icon.png';
   static String iconVerseOfTheDay = '$iconPath/verse_of_the_day_icon.png';
-  static String iconDonate = '$iconPath/donate_icon.png.png';
+  static String iconDonate = '$iconPath/donate_icon.png';
   static String iconHighlights = '$iconPath/highlights_icon.png';
   static String iconShare = '$iconPath/share_icon.png';
   static String iconSettings = '$iconPath/settings_icon.png';
