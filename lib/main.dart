@@ -1,4 +1,4 @@
-import 'package:bible/screens/home.dart';
+import 'package:bible/screens/onboarding/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Inter',
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const SplashScreen(),
     );
   }
 }
